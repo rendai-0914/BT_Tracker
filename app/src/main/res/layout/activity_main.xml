@@ -11,11 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#009688"
+        android:onClick="goToNormalActivity"
         android:text="Check Normal Range"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="219dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
 
     <TextView
         android:id="@+id/MainButton3"
@@ -25,19 +29,49 @@
         android:text="Mechanism of Fever"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="270dp" />
+        android:onClick="goToMechanismActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" /><![CDATA[
+
+    "
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477"
+        tools:layout_editor_absoluteX="132dp" />
+
+
+
+
+
+
+
+
+
+    ]]>
 
     <TextView
-        android:id="@+id/MainButton4"
+        android:id="@+id/mainButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#009688"
         android:text="Handling Fever"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="132dp"
-        tools:layout_editor_absoluteY="323dp" />
+        android:onClick="goToHandlingActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
 
     <TextView
         android:id="@+id/textView"
@@ -47,20 +81,24 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/colorPrimary"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138"
-        tools:layout_editor_absoluteX="123dp" />
+        app:layout_constraintVertical_bias="0.083" />
 
     <TextView
         android:id="@+id/MainButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#009688"
+        android:onClick="goToLogActivity"
         android:text="Log Body Temperature"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
-        android:onClick="goToLogActivity"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="160dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
