@@ -30,13 +30,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(toMechanism);
     }
 
-    public void Link2(View view) {
+    public void goToMainActivity(View view) {
+        Intent toMainActivity = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.healthline.com/health/how-to-break-a-fever"));
+
+        startActivity(toMainActivity);
+    }
+
 
     }
 
-    public void goToHandlingActivity(View view) {
-       Intent toHandling = new Intent(this, HandlingActivity.class);
-       startActivity(toHandling);
-    }
-}
 
