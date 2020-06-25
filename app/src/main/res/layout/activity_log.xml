@@ -41,6 +41,7 @@
         android:layout_height="88dp"
         android:background="#73009650"
         android:text="@string/save"
+        android:onClick="confirmBT"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#3F51B5"
         app:layout_constraintBottom_toBottomOf="parent"

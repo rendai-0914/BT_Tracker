@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         createNotificationChannel();
-    }
 
     TextView mainButton1 = findViewById(R.id.MainButton1);
     mainButton1.setOnClickListener(this);
@@ -35,6 +34,7 @@ public class MainActivity extends AppCompatActivity implements
 
     TextView mainButton4 = findViewById(R.id.MainButton4);
     mainButton4.setOnClickListener(this);
+    }
 
 
      @Override
